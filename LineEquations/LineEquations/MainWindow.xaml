@@ -1,0 +1,30 @@
+﻿<Window x:Class="LineEquations.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LineEquations"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="300">
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.Save"
+                        CanExecute="SaveCommand_CanExecute"
+                        Executed="SaveCommand_Executed"/>
+        <CommandBinding Command="ApplicationCommands.Open"
+                        CanExecute="OpenCommand_CanExecute"
+                        Executed="OpenCommand_Executed"/>
+    </Window.CommandBindings>
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="File">
+                <MenuItem Header="Open" Command="ApplicationCommands.Open"/>
+                <MenuItem Header="Save" Command="ApplicationCommands.Save"/>
+            </MenuItem>
+        </Menu>
+        <UniformGrid Columns="1" Rows="3">
+            <TextBlock Name="InputView"/>
+            <TextBlock Name="ParsedView"/>
+            <TextBlock Name="OutputView"/>
+        </UniformGrid>
+    </DockPanel>
+</Window>

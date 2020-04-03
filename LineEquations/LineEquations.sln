@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LineEquations", "LineEquations\LineEquations.csproj", "{8F4F10D5-DF6F-4849-8FC8-CA407E14C92B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F4F10D5-DF6F-4849-8FC8-CA407E14C92B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F4F10D5-DF6F-4849-8FC8-CA407E14C92B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F4F10D5-DF6F-4849-8FC8-CA407E14C92B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F4F10D5-DF6F-4849-8FC8-CA407E14C92B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8E1592F-229D-49A1-A1E3-2B6641A78567}
+	EndGlobalSection
+EndGlobal
