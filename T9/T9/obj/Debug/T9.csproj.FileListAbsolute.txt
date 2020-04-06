@@ -1,0 +1,17 @@
+C:\Users\user\Documents\HomeWOrk\T9\T9\obj\Debug\T9.csprojAssemblyReference.cache
+C:\Users\user\Documents\HomeWOrk\T9\T9\obj\Debug\MainWindow.g.cs
+C:\Users\user\Documents\HomeWOrk\T9\T9\obj\Debug\App.g.cs
+C:\Users\user\Documents\HomeWOrk\T9\T9\obj\Debug\T9_MarkupCompile.cache
+C:\Users\user\Documents\HomeWOrk\T9\T9\obj\Debug\T9_MarkupCompile.lref
+C:\Users\user\Documents\HomeWOrk\T9\T9\bin\Debug\T9.exe.config
+C:\Users\user\Documents\HomeWOrk\T9\T9\bin\Debug\T9.exe
+C:\Users\user\Documents\HomeWOrk\T9\T9\bin\Debug\T9.pdb
+C:\Users\user\Documents\HomeWOrk\T9\T9\obj\Debug\AddWordWindow.g.cs
+C:\Users\user\Documents\HomeWOrk\T9\T9\obj\Debug\MainWindow.baml
+C:\Users\user\Documents\HomeWOrk\T9\T9\obj\Debug\AddWordWindow.baml
+C:\Users\user\Documents\HomeWOrk\T9\T9\obj\Debug\T9.g.resources
+C:\Users\user\Documents\HomeWOrk\T9\T9\obj\Debug\T9.Properties.Resources.resources
+C:\Users\user\Documents\HomeWOrk\T9\T9\obj\Debug\T9.csproj.GenerateResource.cache
+C:\Users\user\Documents\HomeWOrk\T9\T9\obj\Debug\T9.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\HomeWOrk\T9\T9\obj\Debug\T9.exe
+C:\Users\user\Documents\HomeWOrk\T9\T9\obj\Debug\T9.pdb
