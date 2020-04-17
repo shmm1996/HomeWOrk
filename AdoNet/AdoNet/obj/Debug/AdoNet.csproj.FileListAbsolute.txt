@@ -1,0 +1,15 @@
+C:\Users\user\Documents\HomeWOrk\AdoNet\AdoNet\bin\Debug\AdoNet.exe.config
+C:\Users\user\Documents\HomeWOrk\AdoNet\AdoNet\bin\Debug\AdoNet.exe
+C:\Users\user\Documents\HomeWOrk\AdoNet\AdoNet\bin\Debug\AdoNet.pdb
+C:\Users\user\Documents\HomeWOrk\AdoNet\AdoNet\obj\Debug\AdoNet.csprojAssemblyReference.cache
+C:\Users\user\Documents\HomeWOrk\AdoNet\AdoNet\obj\Debug\MainWindow.g.cs
+C:\Users\user\Documents\HomeWOrk\AdoNet\AdoNet\obj\Debug\App.g.cs
+C:\Users\user\Documents\HomeWOrk\AdoNet\AdoNet\obj\Debug\AdoNet_MarkupCompile.cache
+C:\Users\user\Documents\HomeWOrk\AdoNet\AdoNet\obj\Debug\AdoNet_MarkupCompile.lref
+C:\Users\user\Documents\HomeWOrk\AdoNet\AdoNet\obj\Debug\MainWindow.baml
+C:\Users\user\Documents\HomeWOrk\AdoNet\AdoNet\obj\Debug\AdoNet.g.resources
+C:\Users\user\Documents\HomeWOrk\AdoNet\AdoNet\obj\Debug\AdoNet.Properties.Resources.resources
+C:\Users\user\Documents\HomeWOrk\AdoNet\AdoNet\obj\Debug\AdoNet.csproj.GenerateResource.cache
+C:\Users\user\Documents\HomeWOrk\AdoNet\AdoNet\obj\Debug\AdoNet.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\HomeWOrk\AdoNet\AdoNet\obj\Debug\AdoNet.exe
+C:\Users\user\Documents\HomeWOrk\AdoNet\AdoNet\obj\Debug\AdoNet.pdb
