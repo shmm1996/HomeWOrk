@@ -1,0 +1,39 @@
+D:\Projectc C#\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+D:\Projectc C#\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+D:\Projectc C#\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\nunit.engine.dll
+D:\Projectc C#\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\nunit.engine.api.dll
+D:\Projectc C#\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+D:\Projectc C#\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+D:\Projectc C#\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\NUnitTestProject1.deps.json
+D:\Projectc C#\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\NUnitTestProject1.runtimeconfig.json
+D:\Projectc C#\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\NUnitTestProject1.runtimeconfig.dev.json
+D:\Projectc C#\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\NUnitTestProject1.dll
+D:\Projectc C#\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\NUnitTestProject1.pdb
+D:\Projectc C#\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\BinaryTree.dll
+D:\Projectc C#\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\BinaryTree.pdb
+D:\Projectc C#\BinaryTree\NUnitTestProject1\obj\Debug\netcoreapp2.1\NUnitTestProject1.csprojAssemblyReference.cache
+D:\Projectc C#\BinaryTree\NUnitTestProject1\obj\Debug\netcoreapp2.1\NUnitTestProject1.csproj.CoreCompileInputs.cache
+D:\Projectc C#\BinaryTree\NUnitTestProject1\obj\Debug\netcoreapp2.1\NUnitTestProject1.AssemblyInfoInputs.cache
+D:\Projectc C#\BinaryTree\NUnitTestProject1\obj\Debug\netcoreapp2.1\NUnitTestProject1.AssemblyInfo.cs
+D:\Projectc C#\BinaryTree\NUnitTestProject1\obj\Debug\netcoreapp2.1\NUnitTestProject1.csproj.CopyComplete
+D:\Projectc C#\BinaryTree\NUnitTestProject1\obj\Debug\netcoreapp2.1\NUnitTestProject1.dll
+D:\Projectc C#\BinaryTree\NUnitTestProject1\obj\Debug\netcoreapp2.1\NUnitTestProject1.pdb
+C:\Users\user\Documents\HomeWOrk\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\user\Documents\HomeWOrk\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\user\Documents\HomeWOrk\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\Users\user\Documents\HomeWOrk\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\Mono.Cecil.dll
+C:\Users\user\Documents\HomeWOrk\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\NUnitTestProject1.deps.json
+C:\Users\user\Documents\HomeWOrk\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\NUnitTestProject1.runtimeconfig.json
+C:\Users\user\Documents\HomeWOrk\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\NUnitTestProject1.runtimeconfig.dev.json
+C:\Users\user\Documents\HomeWOrk\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\NUnitTestProject1.dll
+C:\Users\user\Documents\HomeWOrk\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\NUnitTestProject1.pdb
+C:\Users\user\Documents\HomeWOrk\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\BinaryTree.dll
+C:\Users\user\Documents\HomeWOrk\BinaryTree\NUnitTestProject1\bin\Debug\netcoreapp2.1\BinaryTree.pdb
+C:\Users\user\Documents\HomeWOrk\BinaryTree\NUnitTestProject1\obj\Debug\netcoreapp2.1\NUnitTestProject1.csprojAssemblyReference.cache
+C:\Users\user\Documents\HomeWOrk\BinaryTree\NUnitTestProject1\obj\Debug\netcoreapp2.1\NUnitTestProject1.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\HomeWOrk\BinaryTree\NUnitTestProject1\obj\Debug\netcoreapp2.1\NUnitTestProject1.AssemblyInfoInputs.cache
+C:\Users\user\Documents\HomeWOrk\BinaryTree\NUnitTestProject1\obj\Debug\netcoreapp2.1\NUnitTestProject1.AssemblyInfo.cs
+C:\Users\user\Documents\HomeWOrk\BinaryTree\NUnitTestProject1\obj\Debug\netcoreapp2.1\NUnitTestProject1.csproj.CopyComplete
+C:\Users\user\Documents\HomeWOrk\BinaryTree\NUnitTestProject1\obj\Debug\netcoreapp2.1\NUnitTestProject1.dll
+C:\Users\user\Documents\HomeWOrk\BinaryTree\NUnitTestProject1\obj\Debug\netcoreapp2.1\NUnitTestProject1.pdb
+C:\Users\user\Documents\HomeWOrk\BinaryTree\NUnitTestProject1\obj\Debug\netcoreapp2.1\NUnitTestProject1.genruntimeconfig.cache

@@ -14,7 +14,7 @@ namespace BinaryTree.Ext
 
     public static IEnumerable<T> Task2_DifferentChildCount<T>(this Tree<T> tree) where T : IComparable<T> =>
       from node in tree.LeftOrderEnumerable()
-      where (node.Left == null && node.Right != null) || (node.Left != null && node.Right == null)
+      where tree.LeftOrderEnumerable(node.Left).Count() != tree.LeftOrderEnumerable(node.Right).Count()
       select node.Value;
 
     public static IEnumerable<T> Task3_DifferentSubtreeHeight<T>(this Tree<T> tree) where T : IComparable<T> =>
@@ -22,8 +22,7 @@ namespace BinaryTree.Ext
       where node.LeftHeight() != node.RightHeight()
       select node.Value;
 
-    public static int Task4_ElementCount<T>(this Tree<T> tree, T x) where T : IComparable<T> =>
-      tree.Count(value => value.Equals(x));
+    public static int Task4_ElementCount<T>(this Tree<T> tree, T x) where T : IComparable<T> => tree.Count(value => value.Equals(x));
 
     public static T Task5_MaxElement<T>(this Tree<T> tree, out int count) where T : IComparable<T>
     {
@@ -38,8 +37,8 @@ namespace BinaryTree.Ext
       for (int i = 0, j; i < query.Length; i++)
       for (j = i + 1; j < query.Length; j++)
         if (query[i].Equals(query[j]))
-          return false;
-      return true;
+          return true;
+      return false;
     }
 
     public static T Task7_MaxCount<T>(this Tree<T> tree, out int count) where T : IComparable<T>
@@ -48,12 +47,9 @@ namespace BinaryTree.Ext
       var dictionary = new Dictionary<T, int>();
       foreach (var value in tree)
       {
-        if (dictionary.Keys.Contains(value))
-          dictionary[value]++;
-        else
-          dictionary.Add(value, 1);
+        if (dictionary.Keys.Contains(value)) dictionary[value]++;
+        else dictionary.Add(value, 1);
       }
-
       var max = dictionary.Max(x => x.Value);
       count = max;
       return dictionary.FirstOrDefault(x => x.Value == max).Key;
@@ -78,7 +74,7 @@ namespace BinaryTree.Ext
 
     public static IEnumerable<int> Task9_MaxElementsByLevels(this Tree<int> tree) =>
       from level in tree.GetByLevelsEnumerable()
-      select level.Sum(x => x.Value);
+      select level.Max(x => x.Value);
 
     public static IEnumerable<long> Task9_MaxElementsByLevels(this Tree<long> tree) =>
       from level in tree.GetByLevelsEnumerable()
@@ -92,11 +88,28 @@ namespace BinaryTree.Ext
       from level in tree.GetByLevelsEnumerable()
       select level.Sum(x => x.Value);
 
+    public static IEnumerable<Task10LevelResult> Task10_CountNodsAndSheetsByLevels<T>(this Tree<T> tree)
+      where T : IComparable<T> =>
+      from nodes in tree.GetByLevelsEnumerable()
+      select new Task10LevelResult
+      {
+        CountNods = nodes.Count(x => x.Left != null || x.Right != null),
+        CountSheets = nodes.Count(x => x.Left == null && x.Right == null)
+      };
+
+    public class Task10LevelResult
+    {
+      public int CountNods { get; set; }
+      public int CountSheets { get; set; }
+      public override bool Equals(object obj) => obj is Task10LevelResult target && target.CountNods == CountNods && target.CountSheets == CountSheets;
+      public override int GetHashCode() => base.GetHashCode();
+    }
+
     public static int Task11_EvenSum(this Tree<int> tree)
     {
       var sum = 0;
       var levels = tree.GetByLevelsEnumerable().ToArray();
-      for (var i = 1; i < levels.Length; i += 2)
+      for (var i = 0; i < levels.Length; i += 2)
         sum += levels[i].Sum(x => x.Value);
       return sum;
     }
@@ -105,7 +118,7 @@ namespace BinaryTree.Ext
     {
       long sum = 0;
       var levels = tree.GetByLevelsEnumerable().ToArray();
-      for (var i = 1; i < levels.Length; i += 2)
+      for (var i = 0; i < levels.Length; i += 2)
         sum += levels[i].Sum(x => x.Value);
       return sum;
     }
@@ -114,7 +127,7 @@ namespace BinaryTree.Ext
     {
       var sum = 0f;
       var levels = tree.GetByLevelsEnumerable().ToArray();
-      for (var i = 1; i < levels.Length; i += 2)
+      for (var i = 0; i < levels.Length; i += 2)
         sum += levels[i].Sum(x => x.Value);
       return sum;
     }
@@ -123,7 +136,7 @@ namespace BinaryTree.Ext
     {
       var sum = .0;
       var levels = tree.GetByLevelsEnumerable().ToArray();
-      for (var i = 1; i < levels.Length; i += 2)
+      for (var i = 0; i < levels.Length; i += 2)
         sum += levels[i].Sum(x => x.Value);
       return sum;
     }

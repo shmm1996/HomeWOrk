@@ -4,3 +4,23 @@ C:\Users\user\source\repos\BinaryTree\BinaryTree\obj\Debug\BinaryTree.csprojAsse
 C:\Users\user\source\repos\BinaryTree\BinaryTree\obj\Debug\BinaryTree.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\BinaryTree\BinaryTree\obj\Debug\BinaryTree.dll
 C:\Users\user\source\repos\BinaryTree\BinaryTree\obj\Debug\BinaryTree.pdb
+D:\Projectc C#\BinaryTree\BinaryTree\bin\Debug\NUnit3.TestAdapter.dll
+D:\Projectc C#\BinaryTree\BinaryTree\bin\Debug\NUnit3.TestAdapter.pdb
+D:\Projectc C#\BinaryTree\BinaryTree\bin\Debug\nunit.engine.dll
+D:\Projectc C#\BinaryTree\BinaryTree\bin\Debug\nunit.engine.api.dll
+D:\Projectc C#\BinaryTree\BinaryTree\bin\Debug\BinaryTree.dll
+D:\Projectc C#\BinaryTree\BinaryTree\bin\Debug\BinaryTree.pdb
+D:\Projectc C#\BinaryTree\BinaryTree\bin\Debug\nunit.framework.dll
+D:\Projectc C#\BinaryTree\BinaryTree\bin\Debug\nunit.framework.pdb
+D:\Projectc C#\BinaryTree\BinaryTree\bin\Debug\nunit.framework.xml
+D:\Projectc C#\BinaryTree\BinaryTree\obj\Debug\BinaryTree.csproj.CoreCompileInputs.cache
+D:\Projectc C#\BinaryTree\BinaryTree\obj\Debug\BinaryTree.csproj.CopyComplete
+D:\Projectc C#\BinaryTree\BinaryTree\obj\Debug\BinaryTree.dll
+D:\Projectc C#\BinaryTree\BinaryTree\obj\Debug\BinaryTree.pdb
+D:\Projectc C#\BinaryTree\BinaryTree\obj\Debug\BinaryTree.csprojAssemblyReference.cache
+C:\Users\user\Documents\HomeWOrk\BinaryTree\BinaryTree\bin\Debug\BinaryTree.dll
+C:\Users\user\Documents\HomeWOrk\BinaryTree\BinaryTree\bin\Debug\BinaryTree.pdb
+C:\Users\user\Documents\HomeWOrk\BinaryTree\BinaryTree\obj\Debug\BinaryTree.csprojAssemblyReference.cache
+C:\Users\user\Documents\HomeWOrk\BinaryTree\BinaryTree\obj\Debug\BinaryTree.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\HomeWOrk\BinaryTree\BinaryTree\obj\Debug\BinaryTree.dll
+C:\Users\user\Documents\HomeWOrk\BinaryTree\BinaryTree\obj\Debug\BinaryTree.pdb
