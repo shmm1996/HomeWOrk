@@ -1,71 +1,30 @@
 ﻿using System;
-using System.Data;
-using System.Data.SqlClient;
+using System.Linq;
 using System.Windows;
-using System.Windows.Input;
+using System.Windows.Controls;
+using AdoNet.HomeworkTasks;
 
 namespace AdoNet
 {
   public partial class MainWindow : Window
   {
-    private const string ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=UsersDB;Integrated Security=true;";
-    private readonly SqlConnection _conn;
-
     public MainWindow()
     {
       InitializeComponent();
-      InputField.KeyDown += (s, e) =>
+      HomeworkTasksManager.Setup(this);
+      MenuTask.ItemsSource = new[]
       {
-        switch (e.Key)
-        {
-          case Key.Enter: Command(); return;
-          case Key.F1: InputField.Text = "select * from users"; return;
-          case Key.F2: InputField.Text = "insert into users (FirstName, Age) values ('', )"; return;
-          case Key.F3: InputField.Text = "delete from users where"; return;
-        }
-      };
-      Btn.Click += (s, e) => Command();
-      _conn = new SqlConnection {ConnectionString = ConnectionString};
+        BuildMenuItem("Task1 AdoNet",0),
+        BuildMenuItem("Task2 GOE",1),
+        BuildMenuItem("Task3 PC",2)
+      }.AsEnumerable();
     }
 
-    private void Command()
+    public MenuItem BuildMenuItem(string context, int taskIndex)
     {
-      SqlDataReader reader = null;
-      try
-      {
-        var comm = new SqlCommand {CommandText = InputField.Text, Connection = _conn};
-        _conn.Open();
-        var table = new DataTable();
-        reader = comm.ExecuteReader();
-        int line = 0;
-        do
-        {
-          while (reader.Read())
-          {
-            if (line == 0)
-            {
-              for (int i = 0; i < reader.FieldCount; i++)
-                table.Columns.Add(reader.GetName(i));
-              line++;
-            }
-            var row = table.NewRow();
-            for (int i = 0; i < reader.FieldCount; i++)
-              row[i] = reader[i];
-
-            table.Rows.Add(row);
-          }
-        } while (reader.NextResult());
-        DataView.ItemsSource = table.DefaultView;
-      }
-      catch (Exception)
-      {
-        MessageBox.Show("Probably wrong request syntax");
-      }
-      finally
-      {
-        _conn?.Close();
-        reader?.Close();
-      }
+      var menuItem = new MenuItem {Header = context};
+      menuItem.Click += (s, e) => { if (HomeworkTasksManager.LoadTask(taskIndex)) Title = $"MainWindow - {context}"; };
+      return menuItem;
     }
   }
 }
