@@ -1,0 +1,21 @@
+﻿using System.Web.Mvc;
+using Store.Domain.Entities;
+
+namespace Store.WebUI.Infrastructure.Binders
+{
+  public class CartModelBinder : IModelBinder
+  {
+    private const string SessionKey = "Cart";
+
+    public object BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
+    {
+      Cart cart = null;
+      cart = (Cart) controllerContext.HttpContext.Session[SessionKey];
+      if (cart != null)
+        return cart;
+      cart = new Cart();
+      controllerContext.HttpContext.Session[SessionKey] = cart;
+      return cart;
+    }
+  }
+}

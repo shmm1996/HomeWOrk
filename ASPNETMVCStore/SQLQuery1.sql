@@ -1,0 +1,1 @@
+﻿SELECT [Extent1].[Id] AS [Id], [Extent1].[Name] AS [Name], [Extent1].[Description] AS [Description], [Extent1].[Category] AS [Category], [Extent1].[Price] AS [Price], [Extent1].[ImageData] AS [ImageData], [Extent1].[ImageMimeType] AS [ImageMimeType] FROM [dbo].[Products] AS [Extent1]
