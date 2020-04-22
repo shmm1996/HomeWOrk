@@ -1,0 +1,161 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+main {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    width: 400px;
+    height: 240px;
+    margin: -120px 0 0 -200px;
+    background: #ffffff;
+}
+
+.border {
+    padding: 10px 20px;
+    border: 2px outset #7198ba;
+    height: 100%;
+}
+
+.task1_grid {
+    display: grid;
+    position: inherit;
+    height: 100%;
+    grid-template: 1fr 7fr/ 100%;
+    grid-row-gap: 5px;
+}
+
+.task2_grid {
+    display: grid;
+    position: inherit;
+    height: 100%;
+    grid-template: 1px 1px 7fr 1fr 1fr 1px 1px/ 100%;
+    grid-row-gap: 5px;
+}
+
+    .task2_grid select option {
+        padding: 2px 5px;
+    }
+
+.task2_buttons {
+    display: block;
+}
+
+    .task2_buttons input {
+        padding: 5px 15px;
+    }
+
+.task2_input {
+    display: block;
+}
+
+    .task2_input input {
+        display: block;
+        width: 100%;
+        font-family: Arial, sans-serif;
+        padding: 5px;
+    }
+
+.aspNetHidden {
+    visibility: hidden;
+}
+
+
+h2 {
+    font-family: Arial, sans-serif;
+}
+
+.task3_grid {
+    display: grid;
+    position: inherit;
+    height: 100%;
+    grid-template: 1px 1px 1fr 1px 1px/ 100%;
+    grid-gap: 5px 5px;
+}
+
+.task3_grid_grid {
+    display: grid;
+    position: inherit;
+    width: 100%;
+    grid-template: 100%/ 4fr 1fr 4fr;
+    grid-gap: 5px 5px;
+}
+
+.t3_grid_3row {
+    display: grid;
+    grid-template: 1fr 5fr 1fr /100%;
+    grid-gap: 5px 5px;
+}
+
+    .t3_grid_3row select option {
+        padding: 2px 5px;
+    }
+
+.t3_grid_2row {
+    display: grid;
+    grid-template: 1fr 3fr 3fr /100%;
+    grid-gap: 5px 5px;
+}
+
+
+.main {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    width: 400px;
+    height: 300px;
+    margin: -150px 0 0 -200px;
+    background: #ffffff;
+}
+
+.task4_grid {
+    display: grid;
+    position: inherit;
+    height: 100%;
+    grid-template: 1px 1px 3fr 1fr 4fr 3fr 1fr 1px 1px / 100%;
+    grid-gap: 5px 5px;
+}
+
+    .task4_grid .btn {
+        padding: 5px 10px;
+    }
+
+.t4_grid_2row2colum {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 5fr;
+    grid-gap: 2px 5px;
+}
+
+.t4_grid_3colum {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr 2fr;
+    grid-gap: 2px 5px;
+}
+
+.t4_grid_4row {
+    display: grid;
+    grid-template: 1fr 1fr 1fr 1fr/ 1fr;
+    grid-gap: 2px 5px;
+}
+
+.t4_grid_2row {
+    display: grid;
+    grid-template: 1fr 3fr/ 1fr;
+    grid-gap: 2px 5px;
+}
+
+#aboutUser {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.validation1, .validation2 {
+    color: red;
+}
